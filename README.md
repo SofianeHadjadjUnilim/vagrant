@@ -1,8 +1,8 @@
 # Vagrant configuration
 
-Copy or rename config_example.yaml to config.yaml
+Copiez ou renommez **config_example.yaml** en **config.yaml**
 
-Add your own config at host_path and mysql_password
+Ajoutez votre propre configuration aux variables `host_path` et `mysql_password` du **config.yaml**
 
 ## 1 Récupération de l'image vagrant
 	* `vagrant box add <nom_de_l_image | URL>` (exemple : bento/centos-7.4)
