@@ -1,0 +1,13 @@
+# change name config_example.yaml to config.yaml
+# add your own config at host_path and mysql_password
+
+---
+configs:
+    use: 'home'
+    office:
+        public_ip: '192.168.32.10'
+        #<more variables>...
+    home:
+        public_ip: '192.168.33.10'
+        host_path: '/path/to/your/shared/folder'
+        mysql_password: 'yourMysqlRootPassword'
