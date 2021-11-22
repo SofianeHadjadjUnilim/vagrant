@@ -10,4 +10,6 @@ configs:
     home:
         public_ip: '192.168.33.10'
         host_path: '/path/to/your/shared/folder'
-        mysql_password: 'yourMysqlRootPassword'
+        db_password: 'yourMysqlRootPassword'
+        firstname_lastname: 'Eren Jäger'
+        email: 'titanoiseau@snk.jp'
